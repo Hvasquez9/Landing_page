@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin san',sans-serif;
+}
+/**************************************** ENCABEZADO ******************************************/
+.cabeza{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/pexels-the-mole-16539682.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/****************************************** MENU ********************************************************/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/******************************************** TITULO ***************************************************/
+.titulo{
+    color: white;
+    font-size: 28px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+
+#boton1{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer
+}
+
+/************************************** MEDIAQUARY **********************************/
+
+@media (max-width: 1000px){
+    #boton1{
+        background: black;
+    }
+}
+
+@media (max-width: 700px){
+    #boton1{
+        background: blue;
+    }
+}
+
+.seccionIndividual{
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/pexels-casalfilmsestudio-3299683.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.seccionIndividual p{
+    font-size: 20px;
+}
+
+
+/******************************     CUERPO       ***************************************************** */
+.cuerpo{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+/***************************** SECCION  **************************************/
+
+
+.cuerpo .seccion1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/pexels-wallace-chuck-15398044.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.seccion1 h2{
+    margin-top: 50px;
+}
+
+#boton2{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+/******************************* ARTICULO ***************************************/
+
+
+.cuerpo .articulo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/pexels-melvin-buezo-2529148.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#boton3{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+.articulo h2{
+    margin-top: 50px;
+}
+
+/************************ FORMULARIO ******************************************/
+
+.form_diseño{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagenes/pexels-valeriia-miller-3680210.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+#boton4{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+
